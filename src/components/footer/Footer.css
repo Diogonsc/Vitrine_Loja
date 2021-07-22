@@ -1,0 +1,83 @@
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+hr{
+    width: 3rem;
+    color: #ffffff;
+}
+
+i{
+    font-size: 20px;
+}
+
+.row{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    
+}
+
+#btn{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.botaocontato{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+    width: 13rem;
+    height: 40px;
+    background: #ffffff;
+    color:#000000;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-weight: 600;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16.37px;
+    style: normal;
+}
+
+
+
+.infolocalizacao{
+    color: #ffffff;
+    text-align:justify;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    style: normal;
+    
+}
+
+.logofooter{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.empresas-parceiras{
+    width: 6rem;
+    height:2rem;
+}
+
+#created, #powered{
+    font-family: 'Nunito', Arial, Helvetica;
+    font-weight: 400;
+    line-height: 13.64px;
+    font-size: 10px;
+}
+
+.container-fluid{
+    display:flex;
+    justify-content: space-around;
+}

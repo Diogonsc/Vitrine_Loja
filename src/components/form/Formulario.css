@@ -1,0 +1,59 @@
+
+.formulario{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 15rem;
+    background: #f2f2f2;
+    margin:auto;
+}
+
+
+.title-form{
+    font-family: 'Lato', 'Helvetica Neue';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-control{
+    margin:10px 8px;
+    
+}
+
+.btn-dark{
+    margin:10px 8px;
+}
+
+::placeholder{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height:14px;
+}
+
+
+
+@media screen and (max-width:816px) {
+
+    .formulario{
+        width: 100%;
+        height: 20rem;
+        background: #f2f2f2;
+        margin:auto;
+    }
+
+    .col-4{
+        width: 100%;
+    }
+
+    .btn-dark{
+        width: 100%;
+    }
+}

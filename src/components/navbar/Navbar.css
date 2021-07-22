@@ -1,0 +1,58 @@
+
+.navbar{
+    width:100%;
+    display: flex;
+    margin: auto 12px;
+    background-color:#ffffff;
+}
+
+.control-form{
+    width: 20rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-right-radius: none;
+    border-bottom-left-radius: none;
+}
+
+.submit-lente {
+    position:relative;
+    border:none;
+    background:transparent;
+    outline:none;
+  }
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+#logocorebiz{
+    width: 102.46px;
+    height: 25px;
+}
+
+#minha-conta {
+    font-family: 'Nunito', Arial, Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.73px;
+}
+
+::placeholder{
+    font-size: 13px;
+    font-family: 'Nunito', Arial, Helvetica;
+    font-weight: 400;
+    line-height:17.73px;
+}
+
+.minha-conta{
+    font-size: 12px;
+    font-family: 'Nunito', Arial, Helvetica;
+    font-weight: 400;
+    line-height:17.73px;
+}
+
+
+

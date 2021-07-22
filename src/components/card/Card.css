@@ -1,0 +1,68 @@
+
+.container-card{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+
+.card{
+    width: 16rem;
+    height: 25rem;
+    margin: 20px auto ;
+}
+
+#paragrafo-card{
+    font-family: 'Nunito', Arial, Helvetica;
+    font-weight: 400;
+    font-size:11px;
+    line-height: 15px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Nunito', Arial, Helvetica;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27.28px;
+    margin: 3rem;
+}
+
+.card-title{
+    font-family: 'Nunito', Arial, Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.37px;
+    text-align: center;
+}
+
+.btn-comprar{
+    display:flex;
+    background: #000000;
+    color: #ffffff;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    margin:10px auto;
+}
+
+.price{
+   text-align: center;
+}
+
+
+ @media screen and (max-width:816px) {
+    .card{
+      width: 10rem;
+      height: 18rem;
+      margin: 20px auto ;
+    }
+
+    #paragrafo-card{
+      font-family: 'Nunito', Arial, Helvetica;
+      font-weight: 400;
+      font-size:11px;
+      line-height: 7px;
+      text-align: center;
+  }
+    
+ }
